@@ -1,0 +1,45 @@
+body {
+    font-family: Arial,  sans-serif; /* Familia de fuentes */
+    font-size: 11px; /* El tamaño de la fuente principal en el tag <p></p> */
+    background-color: #d9dcd6; /* El color del fondo de la página web */
+    color: #333333; /* El color del texto*/ 
+    object-position: center;
+    place-content: center;
+    place-self: center;
+}
+
+
+.A1 {
+    box-sizing: inherit;
+    width: 50vw;
+    background-color: #B99470;
+    object-position: center;
+    place-content: center;
+    place-self: center;
+}
+@keyframes color-change {
+    0% {
+      color: #9bd1e5;
+        }
+
+    50% {
+        color: #efffff;
+        }
+    
+    
+    100% {
+      color: #9bd1e5;
+       }
+    }
+    
+    h1 {
+        @import url(https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap);
+        align-content: center;
+        animation: color-change 10s infinite;
+        background-color: #6699cc;
+        border-radius:10px;
+        font-family: 'Abril Fatface', display;
+        font-size: 550%;
+        text-align:center;
+
+    }
